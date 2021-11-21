@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  border: solid 1px #000;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: rgb(128, 94, 0);
+}
+
+.apple {
+  background-color: rgb(9, 255, 0);
+}
+
+#start {
+  padding: 0.4em;
+  font-size: 1rem;
+}
